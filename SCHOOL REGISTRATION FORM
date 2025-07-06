@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Document</title>
+  <style>
+    .form-container {}
+
+    label {
+      margin: 15px;
+      font-size: large;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    input {
+      margin-bottom: 5px;
+
+      font-size: 15px;
+      margin-top: 15px;
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    body {
+      background: white;
+      border: 1px solid black;
+
+
+
+    }
+
+    header {
+      font-size: 45px;
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom:50px ;
+      font-weight:bold ;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+      margin-left: 490px;
+      background-color: rgb(11, 9, 14);
+      color: white;
+      font-size: x-large;
+      width: 370px;
+      border-radius: 12px;
+    }
+
+    legend {
+      text-align: center;
+      background-color: rgb(11, 9, 14);
+      color: white;
+      font-size: x-large;
+      width: 370px;
+      border-radius: 10px;
+
+    }
+
+    fieldset {
+      margin-bottom: 15px;
+    }
+
+    span {
+      font-size: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin-left: 50px;
+      margin-right: 90px;
+      font-weight: bolder;
+    }
+  </style>
+</head>
+
+<body>
+
+  <form>
+    <header>CRYSTAL ACADEMY PUBLIC SCHOOL <p>Address: VILL BADHERI RAJPUTAN POST BHARAPUR BHOURI 247667</p>
+    </header>
+    <div class="form-container">
+
+
+      <fieldset>
+        <legend>REGESTRATION FORM</legend>
+        <div>
+          <label for="form no.">Form No. </label>
+          <input type="text" size="45">
+          <span>ONLY FOR OFFICE </span>
+          <label for="Session">For Session</label>
+          <input type="text" size="40 ">
+        </div>
+        <label for="Registration"> Registration Number</label>
+        <input type="text" size="1">
+
+        <label for="Admission">Admission Confirm Dt</label>
+        <input type="text" size="1">
+        <label for="SR no.">SR No.</label>
+        <input type="text" size="1">
+        <label for="">Admn. Class</label>
+        <input type="text" size="1">
+        <label for="">Subiect Stream / Group</label>
+        <input type="text" size="15">
+      </fieldset>
+      <fieldset>
+        <legend>STUDENT DETAILS</legend>
+        <div>
+          <label for="">Student Name</label>
+          <input type="text" size="60">
+          <label for="">Gender</label>
+          <input type="text" size="60">
+        </div>
+        <div>
+          <label for="">Father Name</label>
+          <input type="text" size="60">
+          <label for="">Mother Name</label>
+          <input type="text" size="55">
+          <label for="">Local Address</label>
+          <input type="text" size="137">
+        </div>
+        <div>
+          <label for="">Phone Number</label>
+          <input type="text" size="40">
+          <label for="">Alternate phone Number</label>
+          <input type="text" size="40">
+        </div>
+        <div>
+          <label for="">Address</label>
+          <input type="text" size="45">
+          <label for="">Date of Birth</label>
+          <input type="text"  >
+          <label for="">Religion</label>
+          <input type="text" size="39">
+          <br>
+          <label for="">Caste</label>
+          <input type="text">
+        <div>
+          <label for="">Student Aadhar No.</label>
+          <input type="text" size="50">
+          <label for="">Student PEN No.</label>
+         
+          <input type="text" size="57">
+          <label for="">Previous School</label>
+          <input type="text" size="136">
+          </div>
+          <div>
+          <label for="">Class & Section</label>
+          <input type="text" size="55">
+          <label for="">Last Class Status</label>
+          <input type="text" size="57">
+          <label for="">TC Submitted</label>
+          <input type="text" size="30" placeholder="YES/NO">
+         </div>
+      </fieldset>
+      <fieldset>
+        <legend>ENTRANCE EXAM DETAILS</legend>
+        <div>
+          <label for="">Desired Adm. Class</label>
+          <input type="text" size="55">
+          <label for="">Subject Group</label>
+          <input type="text" size="57">
+        </div>
+         <div>
+          <label for="">Entrance Test Date</label>
+          <input type="text" size="55">
+          <label for="">Entrance Test Time</label>
+          <input type="text" size="53">
+          <label for="">Previous School</label>
+          <input type="text" size="138">
+        </div>
+         <label for="">Registration Fees</label>
+          <input type="text" size="45">
+          <label for="">Receipt No.</label>
+          <input type="text"  >
+          <label for="">Receipt Date</label>
+          <input type="text" size="30">
+          <ol>
+            <h2>NOTE :-</h2>
+             <li>Time of Entrance examination will be two hours.</li>
+             <li>Submission of the registration form does not mean that admission has been completed.</li>
+             <li>Information about confirmation of admission will be given separ</li>
+             <li>It is necessary to attach photocopy of Aadhar Card.</li>
+          </ol>
+          <label for="">Form Deposit Date and Time</label>
+          <input type="text">
+        <label for="">Sig. Parents ----------------------- </label>
+        <label for="">Sig. - Office / Principa -----------------------------</label>
+      </fieldset>
+    </div>
+  </Form>
+
+</body>
+
+</html>
