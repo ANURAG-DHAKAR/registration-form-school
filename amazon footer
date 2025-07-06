@@ -1,0 +1,109 @@
+<html>
+<head>
+  <link rel="stylesheet" href="node module / ">
+  
+  <title>Amazon Footer</title>
+  <style>
+    footer {
+      background-color: rgb(43, 56, 77);
+      color: aliceblue;
+      padding: 20px;
+    }
+
+    .footer-container {
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      max-width: 1000px;
+      justify-content: space-around;
+
+    }
+
+    .footer-column {
+      flex: 1;
+      min-width: 200px;
+      padding: 10px;
+
+    }
+
+    .footer-column h3 {
+      border-bottom: 1px solid rgb(255, 255, 255);
+
+      padding-bottom: 5px;
+
+    }
+
+    .footer-column ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-column ul li {
+      margin: 8px 0;
+    }
+  </style>
+</head>
+
+<body <h1 class="bi bi-bank"></i>"> bell</h1></body>>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>Get to Know Us</h3>
+        <ul>
+          <li> About Amazon </li>
+
+          <li>Careers</li>
+          <li>Press Releases</li>
+          <li>Amazon Science</li>
+
+        </ul>
+
+      </div>
+      <div class="footer-column">
+        <h3>mera <span style="color: aqua;">naam</span>with Us</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Twitter </li>
+          <li> Instagram</li>
+          </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Make Money with Us</h3>
+            <ul>
+              <li>Sell on Amazon </li>
+              <li>Sell under Amazon Accelerator </li>
+              <li> Protect and Build Your BrandM</li>
+              <li> Amazon Global Selling </li>
+              <li>Supply to Amazon</li>
+              <li> Become an Affiliate </li>
+              <li>Fulfilment by Amazon</li>
+              <li>Advertise Your Products </li>
+              <li>Amazon Pay on Merchants</li>
+            </ul>
+          </div>
+            
+              <div class="footer-column">
+                <h3>Let Us Help You</h3>
+                <ul>
+                  <li> Your Account </li>
+                  <li> Returns Centre</li>
+                  <li> Recalls and Product Safety Alerts</li>
+                  <li> 100% Purchase Protection</li>
+                  <li> Amazon App Download</li>
+                  <li> Help</li>
+                </ul>
+                   <div style="color: deeppink;">hnhone bataya ki sanjana mam shat h unhone de diy</div> 
+              </div>
+          
+
+          
+
+        </ul>
+
+      </div>
+    </div>
+   </footer>
+  </body>
+
+</html>
